@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            .container{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .item{
+                border: 1px red solid;
+                width: 30%;
+                height: 400px;
+                background-color: rgb(153, 153, 35);
+            }
+            @media screen and (max-width:450px) {
+                .container{
+                    display: block;
+                    justify-content: center;
+                }
+                .item{
+                    width: 100%;  
+                }
+                .imgitem{
+                    width: 10%;
+                    height: 100px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corporis perferendis facere maiores tempore ratione est voluptates natus quae. Nam nobis adipisci dolor voluptatibus repudiandae nesciunt fuga sunt nulla officiis?
+            </div>
+            <div class="item">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore perferendis quasi adipisci illum veniam modi ad corrupti. Deserunt laudantium ea veritatis dolores eos esse dolorem ullam excepturi voluptates possimus.
+            </div>
+            <div class="item">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus corporis eligendi minima, perferendis commodi similique eos. Dolore distinctio alias dicta, corrupti modi nesciunt rerum labore error quidem repellat iure ipsum!
+            </div>
+        </div>
+    </body>
+</html>
